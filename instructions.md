@@ -28,4 +28,5 @@ This project is just for personal use. If ever needed in an enterprise environme
 2. Netbox to Monitoring - when Netbox updates Termix, the python script could easily kick off some sort of automation to update Prometheus, Checkmk, or other monitoring service. Add host to monitoring via automation
 3. Slack or MS Teams notification - errors or successes could send a message into Slack (super easy) or Teams (possible, but Teams is annoying. Would need to use custom Teams App integration). Could just do a "if SLACK_WEBHOOK exists in .env, then send errors into there. Use a .env.template file.
 4. Robust Error Handling - for enterprise grade systems, JSON logging of errors is great because then its easily ingested by other systems. Create a method of defining where logs are stored and how. This may not be that enterprise... I may just build that as part of this.
-5. Some other super cool stuff?? To be continued...
+5. Termix has HashiCorp Vault SSH Auth support, Tailscale/Wireguard support, and other stuff. Maybe use some of this here? Automate creation and credential deployment?
+6. Some other super cool stuff?? To be continued...
