@@ -11,7 +11,7 @@ The how to get Netbox to kick off this automation
 ## Custom Python Script
 The how to receive and process the stuff from Netbox
 ### Basic Outline
-1. Create docker container ```text docker run -it --name automations debian:latest ```
+1. Create docker container ```docker run -it --name automations debian:latest ```
 2. Build the proper python script and webhook ingest point
 3. Eventually package it as a custom docker container for replication
 4. Publish!
